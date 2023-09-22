@@ -1,0 +1,221 @@
+//Earl Muecke
+//September 26th, 2023
+//Group Work 3
+//CS 1511
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    //NOTE: MANY OF THESE FOR LOOPS ARE UNNECESSARY AS THEY ONLY RUN ONCE, BUT THEY MAKE IT EASIER TO ADJUST AND COUNT SPACING
+//Top Row --------------------------------------------------------------------------------------------------------------
+    //First for loop (1)
+    for (int c = 1; c <= 1; c++) {
+        //prints "/" with proper spacing
+        cout << "  /   ";
+    }
+    //Second for loop (1-5)
+    for (int a = 1; a <= 5; a++) {
+        //Prints asterisk 5 times
+        cout << "*";
+        //Inner for loop (3 times)
+        for (int b = 1; b <= 3; b++) {
+            //Prints 3 spaces between each asterisk
+            cout << " ";
+        }
+    }
+    //Inner for loop (1 time)
+    for (int e = 1; e <= 1; e++) {
+        cout << "|";
+    }
+    //Inner for loop (1 time)
+    for (int f = 1; f <= 1; f++) {
+        cout << " ";
+    }
+    //Inner for loop (1 time)
+    for (int g = 1; g <= 1; g++) {
+        cout << "|   ";
+    }
+    //Inner for loop (15 times)
+    for (int d = 1; d <= 5; d++) {
+        cout << "*";
+        for (int y = 1; y <= 3; y++) {
+            cout << " ";
+        }
+    }
+
+    //Inner for loop (1 time)
+    for (int i = 1; i <= 1; i++) {
+        cout << "\\";
+    }
+    //Inner for loop (2 times)
+    for (int j = 1; j <= 2; j++) {
+        cout << " ";
+    }
+    cout << endl;
+//Row 2 ----------------------------------------------------------------------------------------------------------------
+    for (int l = 1; l <= 1; l++) {
+        cout << " ";
+    }
+
+    for (int m = 1; m <= 1; m++) {
+        cout << "/";
+    }
+
+    for (int n = 1; n <= 51; n++) {
+        cout << " ";
+    }
+
+    for (int o = 1; o <= 1; o++) {
+        cout << "\\";
+    }
+
+    for (int p = 1; p <= 1; p++) {
+        cout << " ";
+    }
+    cout << endl;
+//Row 3 ----------------------------------------------------------------------------------------------------------------
+    for (int m = 1; m <= 1; m++) {
+        cout << "/";
+    }
+
+    for (int n = 1; n <= 53; n++) {
+        cout << " ";
+    }
+
+    for (int o = 1; o <= 1; o++) {
+        cout << "\\";
+    }
+    cout << endl;
+//Rows 4-8 -------------------------------------------------------------------------------------------------------------
+    for (int k = 1; k <= 5; k++) {
+
+        for (int m = 1; m <= 1; m++) {
+            cout << "*";
+        }
+
+        for (int n = 1; n <= 53; n++) {
+            cout << " ";
+        }
+
+        for (int o = 1; o <= 1; o++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+//Row 9 ----------------------------------------------------------------------------------------------------------------
+    for (int m = 1; m <= 1; m++) {
+        cout << "_";
+    }
+
+    for (int n = 1; n <= 53; n++) {
+        cout << " ";
+    }
+
+    for (int o = 1; o <= 1; o++) {
+        cout << "_" << endl;
+    }
+    cout << endl;
+//Row 10 ---------------------------------------------------------------------------------------------------------------
+    for (int m = 1; m <= 1; m++) {
+        cout << "_";
+    }
+
+    for (int n = 1; n <= 53; n++) {
+        cout << " ";
+    }
+
+    for (int o = 1; o <= 1; o++) {
+        cout << "_";
+    }
+    cout << endl;
+//Rows 11-15 -----------------------------------------------------------------------------------------------------------
+    for (int k = 1; k <= 5; k++) {
+
+        for (int m = 1; m <= 1; m++) {
+            cout << "*";
+        }
+
+        for (int n = 1; n <= 53; n++) {
+            cout << " ";
+        }
+
+        for (int o = 1; o <= 1; o++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+//Row 16 ---------------------------------------------------------------------------------------------------------------
+    for (int m = 1; m <= 1; m++) {
+        cout << "\\";
+    }
+
+    for (int n = 1; n <= 53; n++) {
+        cout << " ";
+    }
+
+    for (int o = 1; o <= 1; o++) {
+        cout << "/";
+    }
+    cout << endl;
+//Row 17 ---------------------------------------------------------------------------------------------------------------
+    for (int l = 1; l <= 1; l++) {
+        cout << " ";
+    }
+
+    for (int m = 1; m <= 1; m++) {
+        cout << "\\";
+    }
+
+    for (int n = 1; n <= 51; n++) {
+        cout << " ";
+    }
+
+    for (int o = 1; o <= 1; o++) {
+        cout << "/";
+    }
+
+    for (int p = 1; p <= 1; p++) {
+        cout << " ";
+    }
+    cout << endl;
+//Row 18 ---------------------------------------------------------------------------------------------------------------
+    //Inner for loop (1 time)
+    for (int c = 1; c <= 1; c++) {
+        cout << "  \\   ";
+    }
+    for (int a = 1; a <= 5; a++) {
+        cout << "*";
+        for (int b = 1; b <= 3; b++) {
+            cout << " ";
+        }
+    }
+    //Inner for loop (1 time)
+    for (int e = 1; e <= 1; e++) {
+        cout << "|";
+    }
+    //Inner for loop (1 time)
+    for (int f = 1; f <= 1; f++) {
+        cout << " ";
+    }
+    //Inner for loop (1 time)
+    for (int g = 1; g <= 1; g++) {
+        cout << "|   ";
+    }
+    //Inner for loop (15 times)
+    for (int d = 1; d <= 5; d++) {
+        cout << "*";
+        for (int y = 1; y <= 3; y++) {
+            cout << " ";
+        }
+    }
+    //Inner for loop (1 time)
+    for (int i = 1; i <= 1; i++) {
+        cout << "/";
+    }
+    //Inner for loop (2 times)
+    for (int j = 1; j <= 2; j++) {
+        cout << " ";
+    }
+    cout << endl;
+}
