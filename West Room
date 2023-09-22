@@ -33,7 +33,7 @@ int main() {
 
     //Middle Section ---------------------------------------------------------------------------------------------------
 
-    //Crates rows of empty space with walls on either side. "I" is the number of rows before the side door. "J" is the
+    //Crates rows of empty space with walls on either side. "I" is the number of rows. "J" is the
     // space in between left and right walls. (Before the Door)
     for(int i=1; i < 7; i++) {
         cout << "*";
@@ -48,7 +48,7 @@ int main() {
     for (int j = 0; j < 41; ++j) {
         cout << " ";
     }
-    cout << "--" << endl;
+    cout << "-" << endl;
     
     //Creates the other half of the side door. Starts with the wall and then prints "j" spaces before outputting 
     // part of the door.
@@ -56,9 +56,9 @@ int main() {
     for (int j = 0; j < 41; ++j) {
         cout << " ";
     }
-    cout << "--" << endl;
+    cout << "-" << endl;
 
-    //Crates rows of empty space with walls on either side. "I" is the number of rows before the side door. "J" is the
+    //Crates rows of empty space with walls on either side. "I" is the number of rows. "J" is the
     // space in between left and right walls. (After the Door)
     for(int i=1; i < 7; i++) {
         cout << "*";
