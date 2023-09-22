@@ -43,7 +43,7 @@ int main() {
         cout << "*" << endl;
     }
 
-    //Creates the other half of the side door. Starts with the door and then prints "j" spaces before outputting
+    //Creates the half of the side door. Starts with the door and then prints "j" spaces before outputting
     // the wall.
     cout << "-";
     for (int j = 0; j < 41; ++j) {
