@@ -18,7 +18,7 @@ int main() {
                             cout << "You find yourself in a room that look suspiciously like a placeholder\n"
                                  << "room put in by the developers. The developers must have been lazy, because\n"
                                  << "the only thing in the room is a tea kettle. What do you do?\n"
-                                 << "1. Pick up tea kettle\n2. Exit room\n";
+                                 << "1. Pick up tea kettle\n2. Exit room\n" << endl;
                             cin >> input;
                             switch (input) {
                                 case 1:
